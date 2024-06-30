@@ -1,38 +1,32 @@
-*{
-	font-family: sans-serif;
-	text-decoration: none;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-body{
-	height: 2000px;
-}
-img{
-	width: 500px;
-	height: 400px;
-}
-/*#description{
-	display: none;
-	padding-top: 500px;
-}*/
-p{
-	float: right;
-	width: 300px;
-	padding: 0 200px;
-}
-ul li a{
-	color: black;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
+*{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+   	font-style: normal;
+	color: black;
 }
 ul li{
 	padding: 5px;
 }
-ul li a:hover{
-	text-decoration: underline;
-}
-#arrow1{
-	position: relative;
-	left: -880px;
+#arrow{
 	cursor: pointer;
+}
+#desc{
+	float: right;
+	width: 300px;
+	height: 900px;
+	padding: 0 200px;
+	font-weight: 500px;
+}
+img{
+	height: 300px;
+	width: 700px;
+	float: left;
+	padding: 10px;
 }
