@@ -3,10 +3,13 @@
     <link rel = "stylesheet" href = "main.css">
   </head>
   <body>  
-    <header class = "header" id = "header">   
-      <li><a href="#" class = "logo">Приморск</a></li>
-      <img src="Images/Приморск2.jpg" style = "width: 50px; height: 33px;" class = "item">
-        <nav>
+    <p id = "arrow" onclick="MyArrow()" style="z-index: 1000; position: fixed; padding: 23px 15px; cursor: pointer;">&and;</p>
+    <header class = "header" id = "header">
+      <div style="display: flex;">  
+      <p style="order: 2; font-weight: 1000; padding: 5px 10px;";>Приморск</p>
+      <img src="Images/Приморск2.jpg" style = "width: 50px; height: 33px; order: 1;" class = "item">
+      </div>
+      <nav>
           <ul>
             <li><a href="#" id = "History">История</a>
               <ul>
@@ -23,7 +26,7 @@
                   <li><a href="#">КБ-Энергомаш</a></li>
                   <li><a href="#">Каменный пирс</a></li>
                   <li><a href="#">Вила Мюзера</a></li>
-                  <li><a href="Достопримечательности.html">Стакан</a></li>
+                  <li><a href="Достопримечательности/Стакан/Стакан.html">Стакан</a></li>
               </ul>
             </li>
             <li><a href="#" class = "ways">Наши проекты(Направления)</a>
@@ -40,7 +43,6 @@
           </ul>
         </nav>
     </header>
-    <p id = "arrow" onclick="MyArrow()">&and;</p>
     <div class = "wellcome">
     <h1>Добро пожаловать в Приморск!</h1>
     <p class = "citydesc">Приморск - небольшой город в Выборгском районе Ленинградской области. Расположился вокруг закрытой бухты Коттерлахти пролива Бьеркезунд Финского залива. У нас красивая природа, километры песчаных пляжей, сосновый бор, огромные выглаженные ледником валуны. Весной и осенью у наших берегов останавливаются дикие лебеди.</p>
